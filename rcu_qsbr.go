@@ -15,3 +15,7 @@ type RCUQsbrCnt struct {
 func RcuQsbrInit(rq *RCUQsbr, maxGoroutines int) error {
 	return nil
 }
+
+func RcuQsbrRegister(rq *RCUQsbr, id int) error {
+	return nil
+}
